@@ -1,0 +1,1232 @@
+      *********************************************************
+      *   Ejecutable de Maquina Sencilla  V1.0             ****
+      *   -------------------------------------               *
+      *********************************************************
+
+#Direccion 0
+Cop MOV
+ Op1    : 35
+ Op2    :33
+ Destino    :  35
+ Valor    :  37281
+ Valor en Binario:  1001000110100001
+ Descripción:  ---
+---------------
+#Direccion 1
+Cop ADD
+ Op1    : 30
+ Op2    :32
+ Destino    :  30
+ Valor    :  3872
+ Valor en Binario:  0000111100100000
+ Descripción:  ---
+---------------
+#Direccion 2
+Cop ADD
+ Op1    : 34
+ Op2    :33
+ Destino    :  34
+ Valor    :  4385
+ Valor en Binario:  0001000100100001
+ Descripción:  ---
+---------------
+#Direccion 3
+Cop CMP
+ Op1    : 33
+ Op2    :31
+ Destino    :  33
+ Valor    :  20639
+ Valor en Binario:  0101000010011111
+ Descripción:  ---
+---------------
+#Direccion 4
+Cop BEQ
+ Op1    : 7
+ Op2    :7
+ Destino    :  7
+ Valor    :  50055
+ Valor en Binario:  1100001110000111
+ Descripción:  ---
+---------------
+#Direccion 5
+Cop CMP
+ Op1    : 35
+ Op2    :35
+ Destino    :  35
+ Valor    :  20899
+ Valor en Binario:  0101000110100011
+ Descripción:  ---
+---------------
+#Direccion 6
+Cop BEQ
+ Op1    : 1
+ Op2    :1
+ Destino    :  1
+ Valor    :  49281
+ Valor en Binario:  1100000010000001
+ Descripción:  ---
+---------------
+#Direccion 7
+Cop BEQ
+ Op1    : 7
+ Op2    :7
+ Destino    :  7
+ Valor    :  50055
+ Valor en Binario:  1100001110000111
+ Descripción:  ---
+---------------
+---------------
+HASTA AQUI LO QUE TIENE EL PARSER
+---------------
+#Direccion 0
+Cop MOV
+ Op1    : 35
+ Op2    :33
+ Destino    :  35
+ Valor    :  37281
+ Valor en Binario:  1001000110100001
+ Descripción:  ---
+---------------
+#Direccion 1
+Cop ADD
+ Op1    : 30
+ Op2    :32
+ Destino    :  30
+ Valor    :  3872
+ Valor en Binario:  0000111100100000
+ Descripción:  bucle:
+---------------
+#Direccion 2
+Cop ADD
+ Op1    : 34
+ Op2    :33
+ Destino    :  34
+ Valor    :  4385
+ Valor en Binario:  0001000100100001
+ Descripción:  ---
+---------------
+#Direccion 3
+Cop CMP
+ Op1    : 33
+ Op2    :31
+ Destino    :  33
+ Valor    :  20639
+ Valor en Binario:  0101000010011111
+ Descripción:  ---
+---------------
+#Direccion 4
+Cop BEQ
+ Op1    : 7
+ Op2    :7
+ Destino    :  7
+ Valor    :  50055
+ Valor en Binario:  1100001110000111
+ Descripción:  ---
+---------------
+#Direccion 5
+Cop CMP
+ Op1    : 35
+ Op2    :35
+ Destino    :  35
+ Valor    :  20899
+ Valor en Binario:  0101000110100011
+ Descripción:  ---
+---------------
+#Direccion 6
+Cop BEQ
+ Op1    : 1
+ Op2    :1
+ Destino    :  1
+ Valor    :  49281
+ Valor en Binario:  1100000010000001
+ Descripción:  ---
+---------------
+#Direccion 7
+Cop BEQ
+ Op1    : 7
+ Op2    :7
+ Destino    :  7
+ Valor    :  50055
+ Valor en Binario:  1100001110000111
+ Descripción:  fin:
+---------------
+#Direccion 8
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 9
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 10
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 11
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 12
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 13
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 14
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 15
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 16
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 17
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 18
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 19
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 20
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 21
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 22
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 23
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 24
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 25
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 26
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 27
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 28
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 29
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 30
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  5
+ Valor en Binario:  0000000000000101
+ Descripción:  n1
+---------------
+#Direccion 31
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  4
+ Valor en Binario:  0000000000000100
+ Descripción:  n2
+---------------
+#Direccion 32
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  prod
+---------------
+#Direccion 33
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  cont
+---------------
+#Direccion 34
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  1
+ Valor en Binario:  0000000000000001
+ Descripción:  uno
+---------------
+#Direccion 35
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  cero
+---------------
+#Direccion 36
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 37
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 38
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 39
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 40
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 41
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 42
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 43
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 44
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 45
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 46
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 47
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 48
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 49
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 50
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 51
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 52
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 53
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 54
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 55
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 56
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 57
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 58
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 59
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 60
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 61
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 62
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 63
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 64
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 65
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 66
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 67
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 68
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 69
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 70
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 71
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 72
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 73
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 74
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 75
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 76
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 77
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 78
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 79
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 80
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 81
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 82
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 83
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 84
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 85
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 86
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 87
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 88
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 89
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 90
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 91
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 92
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 93
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 94
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 95
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 96
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 97
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 98
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 99
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 100
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 101
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 102
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 103
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 104
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 105
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 106
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 107
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 108
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 109
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 110
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 111
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 112
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 113
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 114
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 115
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 116
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 117
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 118
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 119
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 120
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 121
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 122
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 123
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 124
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 125
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 126
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------
+#Direccion 127
+Cop ---
+ Op1    : 0
+ Op2    :0
+ Destino    :  0
+ Valor    :  0
+ Valor en Binario:  0000000000000000
+ Descripción:  ---
+---------------

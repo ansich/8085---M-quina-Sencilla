@@ -1,0 +1,46 @@
+E000            ORG 0E000h
+E000 3E90       	MVI A,90h
+E002 D30B       	OUT 0Bh
+E004 DB08       	IN 08h
+E006 3E01       	MVI A, 01h
+E008 E680       	ANI 80h
+E00A FE00       	CPI 00h
+E00C CA50E2     	JZ  IZQ
+E00F C312E0     	JMP DER
+                	
+E012            DER:
+E012 D309       	OUT 09
+E014 CD00E5     	CALL DELAY
+E017 07         	RLC 
+E018 C312E0     	JMP DER
+                
+E250            ORG 0E250h
+                
+E250            IZQ:
+E250 D309       	OUT 09
+E252 CD00E5     	CALL DELAY
+E255 0F         	RRC 
+E256 C350E2     	JMP IZQ
+                
+                
+E500            ORG 0E500h
+E500 0E03       	DELAY: MVI C,03
+E502 16FF       	DELAY1: MVI D,0FFh
+E504 1EFF       	DELAY2: MVI E,0FFh
+E506 1D         	DELAY3: DCR E
+E507 C206E5     	JNZ DELAY3
+E50A 15         	DCR D
+E50B C204E5     	JNZ DELAY2
+E50E 0D         	DCR C
+E50F C202E5     	JNZ DELAY1
+E512 C9         	RET
+----------------------------------------
+TABLA DE SIMBOLOS
+----------------------------------------
+DER	E012
+IZQ	E250
+DELAY	E500
+DELAY1	E502
+DELAY2	E504
+DELAY3	E506
+

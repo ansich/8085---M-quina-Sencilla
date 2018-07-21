@@ -1,0 +1,53 @@
+E000            	ORG 0E000h
+E000 3E90       	MVI A, 90h	
+E002 D30B       	OUT 0Bh
+                
+E004 DB08       BUCLE1: IN 08h
+E006 E608       	ANI 08h
+E008 CA04E0     	JZ BUCLE1	
+E00B 3E01       	MVI A, 01h	
+E00D D309       	OUT 09h
+                	
+E00F DB08       BUCLE2: IN 08h
+E011 E601       	ANI 01h
+E013 C20FE0     	JNZ BUCLE2
+                
+E016 DB08       BUCLE3: IN 08h
+E018 E601       	ANI 01h
+E01A CA16E0     	JZ BUCLE3
+E01D 3E00       	MVI A,00h
+E01F D309       	OUT 09h
+E021 0610       	MVI B, 10h
+E023 DB08       	IN 08h
+E025 3E80       	MVI A, 80h
+E027 D309       	OUT 09h
+                
+E029 DB08       BUCLE4: IN 08h
+E02B E680       	ANI 80h
+E02D CA29E0     	JZ BUCLE4
+E030 3E80       	MVI A, 80h
+E032 D309       	OUT 09h
+                
+E034 DB08       BUCLE5: IN 08h
+E036 E680       	ANI 80h
+E038 C234E0     	JNZ BUCLE5
+                
+E03B DB08       BUCLE6: IN 08h
+E03D E680       	ANI 80h
+E03F CA3BE0     	JZ BUCLE6
+E042 05         	DCR B
+E043 78         	MOV A, B
+E044 FE00       	CPI 00h
+E046 CA34E0     	JZ BUCLE5
+E049 3E00       	MVI A,00h
+E04B C304E0     	JMP BUCLE1
+----------------------------------------
+TABLA DE SIMBOLOS
+----------------------------------------
+BUCLE1	E004
+BUCLE2	E00F
+BUCLE3	E016
+BUCLE4	E029
+BUCLE5	E034
+BUCLE6	E03B
+
